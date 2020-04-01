@@ -6,29 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-<link href="main.css?cfa652548dcd8fa1719b" rel="stylesheet"></head>
+<link href="main.css?0c9860d54ad3cffff7c4" rel="stylesheet"></head>
 
 <body>
-    <div class="burger-full">
+    <div class="burger-full flex sm:hidden">
         <div class="burger-menu text-xl lg:text-3xl">
-            <div class="burger-menu__item"><a href="./index.html">Homepage</a></div>
+            <div class="burger-menu__item"><a href="./index.html">About</a></div>
             <!-- <div class="burger-menu__item"><a href="#">About</a></div> -->
-            <div class="burger-menu__item"><a href="./clients.html">Clients and testimonials</a></div>
-            <div class="burger-menu__item"><a href="./services.html">List of services </a></div>
-            <div class="burger-menu__item"><a href="./progress.html">Copywriting process</a></div>
+            <!-- <div class="burger-menu__item"><a href="./services.html">List of services </a></div> -->
+            <div class="burger-menu__item"><a href="./services.html">What I do</a></div>
+            <div class="burger-menu__item"><a href="./clients.html">Clients</a></div>
             <div class="burger-menu__item"><a href="./faq.html">FAQ</a></div>
             <div class="burger-menu__item"><a href="./contacts.html">Contacts</a></div>
         </div>
     </div>
     <div class="main-wrapper">
-        <header class="z-30">
-            <div class="header-logo">
+        <header class="justify-between sm:justify-center">
+            <div class="header-logo sm:hidden block">
                 TK
             </div>
-            <div class="header-title text-2xl md:text-4xl lg:text-6xl">
-                Copywriting process
+            <div class="text-2xl md:text-4xl lg:text-6xl block sm:hidden">
+                Homepage
             </div>
-            <div class="header-burger">
+            <div class="header-title hidden sm:flex text-xl">
+                <div class="header-title__item"><a href="./index.html">About</a></div>
+                <div class="header-title__item"><a href="./services.html">What I do</a></div>
+                <div class="header-title__item"><a href="./clients.html">Clients</a></div>
+                <div class="header-title__item"><a href="./faq.html">FAQ</a></div>
+                <div class="header-title__item"><a href="./contacts.html">Contacts</a></div>
+            </div>
+            <div class="header-burger sm:hidden flex">
                 <div class="header-burger__line"></div>
             </div>
         </header>
@@ -84,6 +91,6 @@
             </div>
         </footer>
     </div>
-<script type="text/javascript" src="main.js?cfa652548dcd8fa1719b"></script></body>
+<script type="text/javascript" src="main.js?0c9860d54ad3cffff7c4"></script></body>
 
 </html>

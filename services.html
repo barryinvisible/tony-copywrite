@@ -6,29 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-<link href="main.css?cfa652548dcd8fa1719b" rel="stylesheet"></head>
+<link href="main.css?0c9860d54ad3cffff7c4" rel="stylesheet"></head>
 
 <body>
-    <div class="burger-full">
+    <div class="burger-full flex sm:hidden">
         <div class="burger-menu text-xl lg:text-3xl">
-            <div class="burger-menu__item"><a href="./index.html">Homepage</a></div>
+            <div class="burger-menu__item"><a href="./index.html">About</a></div>
             <!-- <div class="burger-menu__item"><a href="#">About</a></div> -->
-            <div class="burger-menu__item"><a href="./clients.html">Clients and testimonials</a></div>
-            <div class="burger-menu__item"><a href="./services.html">List of services </a></div>
-            <div class="burger-menu__item"><a href="./progress.html">Copywriting process</a></div>
+            <!-- <div class="burger-menu__item"><a href="./services.html">List of services </a></div> -->
+            <div class="burger-menu__item"><a href="./services.html">What I do</a></div>
+            <div class="burger-menu__item"><a href="./clients.html">Clients</a></div>
             <div class="burger-menu__item"><a href="./faq.html">FAQ</a></div>
             <div class="burger-menu__item"><a href="./contacts.html">Contacts</a></div>
         </div>
     </div>
     <div class="main-wrapper">
-        <header>
-            <div class="header-logo">
+        <header class="justify-between sm:justify-center">
+            <div class="header-logo sm:hidden block">
                 TK
             </div>
-            <div class="header-title text-2xl md:text-4xl lg:text-6xl">
-                List of services
+            <div class="text-2xl md:text-4xl lg:text-6xl block sm:hidden">
+                Homepage
             </div>
-            <div class="header-burger">
+            <div class="header-title hidden sm:flex text-xl">
+                <div class="header-title__item"><a href="./index.html">About</a></div>
+                <div class="header-title__item"><a href="./services.html">What I do</a></div>
+                <div class="header-title__item"><a href="./clients.html">Clients</a></div>
+                <div class="header-title__item"><a href="./faq.html">FAQ</a></div>
+                <div class="header-title__item"><a href="./contacts.html">Contacts</a></div>
+            </div>
+            <div class="header-burger sm:hidden flex">
                 <div class="header-burger__line"></div>
             </div>
         </header>
@@ -40,13 +47,24 @@
                 <div class="clients-container__block">ff</div>
             </div>
         </div> -->
-        <div class="container  center-block">
+        <div class="container center-block">
+            <div class="container clients-option">
+                <div class="options justify-center md:justify-between">
+                    <div class="options-item"><a href="#inform">Inform</a></div>
+                    <div class="options-item"><a href="#educate">Educate</a></div>
+                    <div class="options-item"><a href="#attract">Attract</a></div>
+                    <div class="options-item"><a href="#inspire">Inspire</a></div>
+                    <div class="options-item"><a href="#persuade">Persuade</a></div>
+                    <div class="options-item"><a href="#convince">Convince</a></div>
+                    <div class="options-item"><a href="#sell">Sell</a></div>
+                </div>
+            </div>
             <div class="clients-container">
                 <div class="clients-block">
-                    <div class="clients-block__title text-3xl lg:text-5xl">
+                    <div class="clients-block__title text-3xl lg:text-4xl">
                         Ads text
                     </div>
-                    <div class="clients-block__text text-xl lg:text-2xl">
+                    <div class="clients-block__text text-xl">
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius culpa nam reiciendis sed illum ducimus itaque aperiam nulla quisquam placeat odio pariatur excepturi consequuntur, maiores dolores architecto accusamus repudiandae accusantium?
                     </div>
                     <div class="clients-block__btn">
@@ -54,15 +72,66 @@
                     </div>
                 </div>
                 <div class="clients-block">
-                    <div class="clients-block__title text-3xl lg:text-5xl">
+                    <div class="clients-block__title text-3xl lg:text-4xl">
                         Business article
                     </div>
-                    <div class="clients-block__text text-xl lg:text-2xl">
+                    <div class="clients-block__text text-xl">
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius culpa nam reiciendis sed illum ducimus itaque aperiam nulla quisquam placeat odio pariatur excepturi consequuntur, maiores dolores architecto accusamus repudiandae accusantium?
                     </div>
                     <div class="clients-block__btn">
                         from 20$
                     </div>
+                </div>
+            </div>
+            <div class="option-blocks">
+                <div class="options-block" id="inform">
+                    <div class="options-block__title">
+                        Inform
+                    </div>
+                    <div class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus iste culpa explicabo placeat delectus eum illum ea ipsum dolorem, repellat voluptatum quae, non excepturi laboriosam quas maiores numquam aliquid molestias architecto
+                        et. Adipisci necessitatibus, tenetur quia obcaecati maxime consequuntur sunt eos minima porro unde quod voluptatem, quae exercitationem, minus aspernatur?</div>
+                </div>
+                <div class="options-block" id="educate">
+                    <div class="options-block__title">
+                        Educate
+                    </div>
+                    <div class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus iste culpa explicabo placeat delectus eum illum ea ipsum dolorem, repellat voluptatum quae, non excepturi laboriosam quas maiores numquam aliquid molestias architecto
+                        et. Adipisci necessitatibus, tenetur quia obcaecati maxime consequuntur sunt eos minima porro unde quod voluptatem, quae exercitationem, minus aspernatur?</div>
+                </div>
+                <div class="options-block" id="attract">
+                    <div class="options-block__title">
+                        Attract
+                    </div>
+                    <div class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus iste culpa explicabo placeat delectus eum illum ea ipsum dolorem, repellat voluptatum quae, non excepturi laboriosam quas maiores numquam aliquid molestias architecto
+                        et. Adipisci necessitatibus, tenetur quia obcaecati maxime consequuntur sunt eos minima porro unde quod voluptatem, quae exercitationem, minus aspernatur?</div>
+                </div>
+                <div class="options-block" id="inspire">
+                    <div class="options-block__title">
+                        Inspire
+                    </div>
+                    <div class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus iste culpa explicabo placeat delectus eum illum ea ipsum dolorem, repellat voluptatum quae, non excepturi laboriosam quas maiores numquam aliquid molestias architecto
+                        et. Adipisci necessitatibus, tenetur quia obcaecati maxime consequuntur sunt eos minima porro unde quod voluptatem, quae exercitationem, minus aspernatur?</div>
+                </div>
+                <div class="options-block" id="persuade">
+                    <div class="options-block__title">
+                        Persuade
+                    </div>
+                    <div class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus iste culpa explicabo placeat delectus eum illum ea ipsum dolorem, repellat voluptatum quae, non excepturi laboriosam quas maiores numquam aliquid molestias architecto
+                        et. Adipisci necessitatibus, tenetur quia obcaecati maxime consequuntur sunt eos minima porro unde quod voluptatem, quae exercitationem, minus aspernatur?</div>
+                </div>
+                <div class="options-block" id="convince">
+                    <div class="options-block__title">
+                        Convince
+                    </div>
+                    <div class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus iste culpa explicabo placeat delectus eum illum ea ipsum dolorem, repellat voluptatum quae, non excepturi laboriosam quas maiores numquam aliquid molestias architecto
+                        et. Adipisci necessitatibus, tenetur quia obcaecati maxime consequuntur sunt eos minima porro unde quod voluptatem, quae exercitationem, minus aspernatur?</div>
+                </div>
+                <div class="options-block" id="sell">
+                    <div class="options-block__title">
+                        Sell
+                    </div>
+                    <div class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus iste culpa explicabo placeat delectus eum illum ea ipsum dolorem, repellat voluptatum quae, non excepturi laboriosam quas maiores numquam aliquid molestias architecto
+                        et. Adipisci necessitatibus, tenetur quia obcaecati maxime consequuntur sunt eos minima porro unde quod voluptatem, quae exercitationem, minus aspernatur?</div>
                 </div>
             </div>
         </div>
@@ -82,6 +151,6 @@
             </div>
         </footer>
     </div>
-<script type="text/javascript" src="main.js?cfa652548dcd8fa1719b"></script></body>
+<script type="text/javascript" src="main.js?0c9860d54ad3cffff7c4"></script></body>
 
 </html>
